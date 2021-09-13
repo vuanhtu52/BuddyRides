@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">RMITRides</string>
+    <string name="welcome_text1">Need a ride?</string>
+    <string name="welcome_text2">Join RMIT Rides. The largest\nridesharing community in Viet Nam.</string>
+    <string name="welcome_text3">Find a ride</string>
+    <string name="next_button">Next button</string>
+    <string name="app_logo">App Logo</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full Name</string>
+    <string name="or">OR</string>
+    <string name="signup_using">Sign up using</string>
+    <string name="f">f</string>
+    <string name="G">G</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signin_suggestion">Already a member?</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signin_using">Sign in using</string>
+    <string name="signup_suggestion">Not a member?</string>
+    <string name="facebook_app_id">2571232679657910</string>
+    <string name="fb_login_protocol_scheme">fb2571232679657910</string>
+    <string name="lock">Lock icon</string>
+    <string name="forgot_password2">FORGOT PASSWORD?</string>
+    <string name="enter_email">Enter your registered email ID\nto reset the password</string>
+    <string name="send">SEND</string>
+    <string name="phone">Phone icon</string>
+    <string name="phone_registration">Phone Registration</string>
+    <string name="phone_instruction">Please confirm your country code\nand phone number</string>
+    <string name="verify">Verify</string>
+    <string name="vietnam">Viet Nam</string>
+    <string name="phone_signin">Sign In With\nPhone Number</string>
+    <string name="home">Home</string>
+    <string name="activities">Activities</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="passenger">Passenger</string>
+    <string name="passenger_detail">Find a driver nearby</string>
+    <string name="driver">Driver</string>
+    <string name="driver_detail">See who needs a ride</string>
+    <string name="background_image">Background Image</string>
+    <string name="edit">Edit</string>
+    <string name="birthdate">Birth Date</string>
+    <string name="not_specified">Not Specified</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>"Not Specified"</item>
+    </string-array>
+    <string name="book">Book a ride</string>
+    <string name="more_options">More options</string>
+    <string name="slogan">Share your ride.\nMake more friends.\nBe part of the community.</string>
+    <string name="settings">Settings</string>
+    <string name="account">ACCOUNT</string>
+    <string name="my_profile">My Profile</string>
+    <string name="general">GENERAL</string>
+    <string name="show_location">Enable location display</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="logout">Log out</string>
+    <string name="cancel">Cancel</string>
+    <string name="find_driver">Finding you a driver...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

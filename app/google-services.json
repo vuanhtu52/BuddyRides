@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040106354852",
+    "firebase_url": "https://rmitrides.firebaseio.com",
+    "project_id": "rmitrides",
+    "storage_bucket": "rmitrides.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040106354852:android:686f6c8a6370ea0fdc0e31",
+        "android_client_info": {
+          "package_name": "rmit.ad.rmitrides"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040106354852-recl1dt11jsm9e7c6n3kbt05bd958if9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rmit.ad.rmitrides",
+            "certificate_hash": "d20493e53bbc1fdc3c434e71e920931212380654"
+          }
+        },
+        {
+          "client_id": "1040106354852-8pscbpg9mpen4ka6fu174hgveas026ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbpjp0qiZRs95SZZdg1FU1ifqrOnoJERs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040106354852-8pscbpg9mpen4ka6fu174hgveas026ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

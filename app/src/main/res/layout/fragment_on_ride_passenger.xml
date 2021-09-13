@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/booking_map"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".PassengerOnRideFragment">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar_activity_accept_request"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="6dp" />
+
+<FrameLayout
+    android:id="@+id/map_container"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar_activity_accept_request" />
+
+<ScrollView
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:visibility="visible"
+    app:layout_constraintBottom_toTopOf="@+id/btCancel"
+    app:layout_constraintTop_toBottomOf="@+id/map_container"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/routeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/descriptionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_description"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/passengerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_passenger_name"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:text="@string/passenger" />
+
+        <TextView
+            android:id="@+id/timeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="16sp"
+            android:padding="16dp"
+            android:text="Pick-up time" />
+
+        <TextView
+            android:id="@+id/genderTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_driver"
+            android:drawablePadding="16sp"
+            android:padding="16dp"
+            android:text="Driver Requirement" />
+    </LinearLayout>
+</ScrollView>
+
+<Button
+    android:id="@+id/btCancel"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="@color/colorAccent"
+    android:text="Cancel"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/btFinish"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+<Button
+    android:id="@+id/btFinish"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Finish"
+    app:layout_constraintBottom_toBottomOf="@+id/btCancel"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/btCancel"
+    app:layout_constraintTop_toTopOf="@+id/btCancel" />
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/chat_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/profile_icon"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

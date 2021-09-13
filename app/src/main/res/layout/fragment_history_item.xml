@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/passengerTxt_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_passenger_name"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:text="@string/passenger" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/pickUpLocation_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_map_marker"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:text="Route" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_finish_flag"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:id="@+id/destinationLocation_history"
+                android:text="Destination"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_description_black_24dp"
+            android:id="@+id/description_history"/>
+
+        <TextView
+            android:id="@+id/timeTxt_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="16sp"
+            android:padding="16dp"
+            android:text="Pick-up time" />
+
+    </LinearLayout>
+</LinearLayout>
